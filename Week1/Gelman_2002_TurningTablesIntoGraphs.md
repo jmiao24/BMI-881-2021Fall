@@ -1,6 +1,5 @@
 # Gelman_2002_TurningTablesIntoGraphs
 
-Created: September 13, 2021 10:52 AM
 
 ## Summary
 
