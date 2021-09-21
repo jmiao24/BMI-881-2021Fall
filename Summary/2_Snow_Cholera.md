@@ -1,16 +1,13 @@
-# Gelman_2002_TurningTablesIntoGraphs
+# Snow_1885_OnTheModeOfCommunicationOfCholera
 
 
 ## Summary
 
-Statistician recommend using graph to deliver message, but often does not follow it, potentially due to the heavy workload to make nice graphs.  Gelman et al. provided a “proof of concept” that statistical papers can benefit by changing tables into graphs. They revisited  a single issue of JASA and shows that how all numerical displays can be shown graphically, including inferences such as estimated regression coefficients and statistical research results such as frequency evaluations that are typically displayed in tabular form.  They invoked the statistician begin to think more seriously about displaying their results as comparisons.
-
+People thought cholera was spread by effluvia given off from the patient into the surrounding air if it was a communicable disease. In this paper, Snow argued that cholera invariably commences with the affection of the alimentary canal and was spreaded by contaminated water. He first used the patient symptoms to support his arugements. Next, he investigated the the distribution of cholera cases and used a dot map to illustrate how cholera cases is concentrated near the public water pump on Broad Street. Last, he also used the difference for the prevalnce of cholera the areas supplied by different water companies to support his argument. 
 ## Reaction
 
-I think this is a good paper to convince statisticians that in many cases, graphs can do a better job than tables. They did not chant the slogan that statisticians should use graphs, but provided many concrete examples, converting tables into graphs, and allowing readers to judge which format is more readable.Most of the graph they made looks pretty good to me. One exception for me is Figure5, I also spent a hard time in understanding the graph while the table looks more readable for me. One potential reason is that people always present the asymptotic characteristics of a statistical method in the table, such as type I errors. Therefore, due to past experience, I have read such a table many times, but for the first time I have seen people present such results in a graph. Nevertheless, all in all, this is a meaningful paper that can improve the readability of future statistical papers.
-
+I think this is an very important study in the history of epideimoloigy. The map delivered the key messgae that Snow want to deliver very well: cholera was spreaded by contaminated water. As far as I am concerned, it is a really hard study. Snow interviewed so many person and collects all kinds of different information. His main supporting evidence: cholera cases is concentrated near the public water pump on Broad Street is a statistical enrichement test for me. He investigated whether there are enrichment of cholera cases for the people who was in contact with the polluted water in water pump. It is a very nice study.
 ## Questions for discussion
 
-1. Is this still a problem for theoretical journal like JASA?
-2. Whether we should replace all our tables into graph? If not, what kind of table shouldn't we replace?
-3. Are there improvements for the Figures in the paper?
+1. Did this paper have a big impact as soon as it was published? If not, why?
+2. I wonder how did people determine spread ways of a disease in morden days? Take covid for an example, how did people determine that it can spread in air?
