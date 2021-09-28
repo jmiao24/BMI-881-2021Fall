@@ -3,9 +3,9 @@
 
 ## Summary
 
-Coronary heart disease (CHD) remains the major casue of death adn disability in the United States. 
+Coronary heart disease (CHD) remains the major casue of death adn disability in the United States. Plasma total and LDL-C levels may be reduced by diets and drugs.. However, before such treatment can be advocated, it is desirable to show that reducing cholesterol levels safely reduces the risk of CHD in people. Many clinical trials of cholesterol lowering have been conducted, but their results, although often encouraging, have been inconclusive. In this paper, they reported the results of The Lipid Research Clinics Coronary Primary Prevention Trial. 
 
-People thought cholera was spread by effluvia given off from the patient into the surrounding air if it was a communicable disease. In this paper, Snow argued that cholera invariably commences with the affection of the alimentary canal and was spread by contaminated water. He first used the patient's symptoms to support his arguments. Next, he investigated the distribution of cholera cases and used a dot map to illustrate how cholera cases are concentrated near the public water pump on Broad Street. Last, he also used the difference for the prevalence of cholera in the areas supplied by different water companies to support his argument.
+People thought cholera was spread by effluvia given off from the patient into the surrounding air if it was a communicable disease. In this paper, Snow argued that cholera invariably commences with the affection of the alimentary canal and was spread by contaminated water. He first used the patient's symptoms to support his arguments. Next, he investigated the distribution of cholera cases and used a dot map to illustrate how cholera cases are concentrated near the public water pump on Broad Street. Last, he also used the difference for the prevalence of cholera in the areas supplied by different water companies to support his argument. The LRC-CPPT findings show that reducing total cholesterol by lowering LDL-C levels can diminish the incidence of CHD morbidity and mortality in men at high risk for CHD because of raised LDL-C levels. This clinical trial provides strong evidence for a causal role for these lipids in the pathogenesis of CHD. 
 
 ## Reaction
 
