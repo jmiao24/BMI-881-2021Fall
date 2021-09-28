@@ -3,6 +3,8 @@
 
 ## Summary
 
+Coronary heart disease (CHD) remains the major casue of death adn disability in the United States. 
+
 People thought cholera was spread by effluvia given off from the patient into the surrounding air if it was a communicable disease. In this paper, Snow argued that cholera invariably commences with the affection of the alimentary canal and was spread by contaminated water. He first used the patient's symptoms to support his arguments. Next, he investigated the distribution of cholera cases and used a dot map to illustrate how cholera cases are concentrated near the public water pump on Broad Street. Last, he also used the difference for the prevalence of cholera in the areas supplied by different water companies to support his argument.
 
 ## Reaction
