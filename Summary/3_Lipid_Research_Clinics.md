@@ -1,4 +1,4 @@
-# 1984_Lipid_Research_Clinics_CHD
+# 03_1984_Lipid_Research_Clinics_CHD
 
 
 ## Summary
@@ -11,5 +11,5 @@ I think this is a very important study in the history of epidemiology. The map d
 
 ## Questions for discussion
 
-1. Did this paper have a big impact as soon as it was published? If not, why?
-2. I wonder how people determine the ways of spreading a disease in modern days? Take covid for an example, how did people determine that it can spread in air?
+1. Are there ethical concerns for clinical trails especiilay for the people in control group? 
+2. 
