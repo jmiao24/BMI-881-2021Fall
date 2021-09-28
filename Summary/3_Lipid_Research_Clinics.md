@@ -1,4 +1,4 @@
-# Snow_1885_OnTheModeOfCommunicationOfCholera
+# 1984_Lipid_Research_Clinics_CHD
 
 
 ## Summary
