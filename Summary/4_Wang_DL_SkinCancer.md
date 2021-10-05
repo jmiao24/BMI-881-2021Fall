@@ -7,7 +7,7 @@ There are few patient data–driven tools exist for more accurate predictio nfor
 
 ## Reaction
 
-At the first glance I saw this paper, I thought of a paper published in Science about the racial bias in health algorithms[Dissecting racial bias in an algorithm used to manage the health of populations](https://www.science.org/doi/abs/10.1126/science.aax2342). Then I checked the sample they used and it is all 
+At the first glance I saw this paper, I thought of a paper published in Science about the racial bias in health algorithms([Dissecting racial bias in an algorithm used to manage the health of populations](https://www.science.org/doi/abs/10.1126/science.aax2342)). Then I checked the sample they used and it is all 
 
 ## Questions for discussion
 
