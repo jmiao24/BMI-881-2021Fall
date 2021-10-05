@@ -13,3 +13,9 @@ This is the second clinical trails paper I read. The deign of the clinical trail
 
 1. Are there ethical concerns for clinical trails especiilay for the people in control group? 
 2. What is the standard format and reuqired content for a clinical trail paper? Are there any differnce of the format between 1984 and now?
+
+## Notes
+
+1. If we also want to study women, The additional sample to include depends on the prevelance on women,
+2. Should also give people other drungs in control group.
+3. People who adhere to the treatment tend to be healthier.
