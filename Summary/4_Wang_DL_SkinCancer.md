@@ -1,15 +1,15 @@
-# 03_1984_Lipid_Research_Clinics_CHD
+# 04_2019_DL_SkinCancer
 
 
 ## Summary
 
-Coronary heart disease (CHD) remains the major casue of death adn disability in the United States. Plasma total and LDL-C levels may be reduced by diets and drugs.. However, before such treatment can be advocated, it is desirable to show that reducing cholesterol levels safely reduces the risk of CHD in people. Many clinical trials of cholesterol lowering have been conducted, but their results, although often encouraging, have been inconclusive. In this paper, they reported the results of The Lipid Research Clinics Coronary Primary Prevention Trial. The LRC-CPPT findings show that reducing total cholesterol by lowering LDL-C levels can diminish the incidence of CHD morbidity and mortality in men at high risk for CHD because of raised LDL-C levels. This clinical trial provides strong evidence for a causal role for these lipids in the pathogenesis of CHD. 
+There are few patient data–driven tools exist for more accurate predictio nfor new-onset nonmelanoma skin cancer, which could enhance prevention measures. Wang et al. developed a deep learning based prediction model for incident nonmelanoma skin cancer based on large-scale, multidimensional, nonimaging medical information. The area under the receiver operating characteristic curve for the model was 0.89; several potential determining factors for prediction such as history of precancerous lesions and use of some photosensitizing medications were also identified. This algorithm can accurately identify individuals at high risk of nonmelanoma skin cancer and may help to optimize prevention interventions and adherence.
 
 ## Reaction
 
-This is the second clinical trails paper I read. The deign of the clinical trail seems make sense. And there seems to be a lot of evidence to support their main conconlusion:reducing total cholesterol by lowering LDL-C levels can diminish the incidence of CHD morbidity and mortality in men at high risk for CHD because of raised LDL-C levels. Overall it is a good paper. But I am unsure about whether the content is rigourous enough in nowadays's view.
-
+At the first glance, I thought of a paper published in Science about the racial bias in health algorithms([Dissecting racial bias in an algorithm used to manage the health of populations](https://www.science.org/doi/abs/10.1126/science.aax2342)). Then I checked the sample they used and it is all Asian. However, it is good that the auothors indeed acknowledge the limited ethnicity of the study population as a critical limitation for the study. Another thought is how many prediction accuracy can we gain if we use the genetic data. Since I am doing genetic research and the feature they used to do the prediction is independent of the genetics, I think there should be some gain if adding genetics into the algorithm.
 ## Questions for discussion
 
-1. Are there ethical concerns for clinical trails especiilay for the people in control group? 
-2. What is the standard format and reuqired content for a clinical trail paper? Are there any differnce of the format between 1984 and now?
+1. When will people be able to deploy such algorithms into clinical practice? 
+2. How many prediction accuracy can we gain if we use the genetic data? 
+
