@@ -15,5 +15,5 @@ I also love Berry's repsonse to the commentary. It made some clarfications and p
 ## Questions for discussion
 
 1. Are people still doing Screening Mammography now? Are there more advanced approach?
-2. I believe genetics(BRCA gene) is one of key risk factor for breast cancere? Are Screening Mammography complementary to the genetics testing?
+2. I believe genetics(BRCA gene) is one of key risk factor for breast cancere? Is Screening Mammography complementary to the genetics testing?
 
