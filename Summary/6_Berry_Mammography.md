@@ -3,13 +3,17 @@
 
 ## Summary
 
-There are few patient data–driven tools exist for more accurate predictio nfor new-onset nonmelanoma skin cancer, which could enhance prevention measures. Wang et al. developed a deep learning based prediction model for incident nonmelanoma skin cancer based on large-scale, multidimensional, nonimaging medical information. The area under the receiver operating characteristic curve for the model was 0.89; several potential determining factors for prediction such as history of precancerous lesions and use of some photosensitizing medications were also identified. This algorithm can accurately identify individuals at high risk of nonmelanoma skin cancer and may help to optimize prevention interventions and adherence.
+Existing studies do not adequately address some important issues about whether or not recommend regular mammography to women aged 40–49 years. Berry provided new analyses and evaluations of the evidence in this paper. On one hand, This paper first present a metaanalysis of the randomized trials that allows for differences between the trials and that addresses an individual woman’s decision more appropriately than do the existing analyses. On the other hand, this paper provide ways of presenting the benefits and risks of mammography that will help women and their caregivers in making screening decisions.
 
 ## Reaction
 
-At the first glance, I thought of a paper published in Science about the racial bias in health algorithms([Dissecting racial bias in an algorithm used to manage the health of populations](https://www.science.org/doi/abs/10.1126/science.aax2342)). Then I checked the sample they used and it is all Asian. However, it is good that the auothors indeed acknowledge the limited ethnicity of the study population as a critical limitation for the study. Another thought is how many prediction accuracy can we gain if we use the genetic data. Since I am doing genetic research and the feature they used to do the prediction is independent of the genetics, I think there should be some gain if adding genetics into the algorithm.
+I think this is a good paper from several points. First of all, it uses the convincing statistical analysis to address the important question that whether or not recommend regular mammography to women aged 40–49 years. Second, it also discussed the potential factors that will impact the conclusions they made in the paper. Thirdly, it also provide ways of presenting the benefits and risks of mammography that will help women and their caregivers in making screening decisions. This can really help people made their own decisions based on the risk and benefits.
+
+I also love Berry's repsonse to the commentary. It made some clarfications and point out the logic errors for the commentary.
+
+
 ## Questions for discussion
 
-1. When will people be able to deploy such algorithms into clinical practice? 
-2. How many prediction accuracy can we gain if we use the genetic data? 
+1. Are people still doing Screening Mammography now? Are there more advanced approach?
+2. I believe genetics(BRCA gene) is one of key risk factor for breast cancere? Are Screening Mammography complementary to the genetics testing?
 
