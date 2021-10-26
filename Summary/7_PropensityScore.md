@@ -15,5 +15,5 @@ I still remembered the moment I saw this concept when I took the causal inferenc
 ## Questions for discussion
 
 1. Are there other limitations of propensity score?
-2. Why didn't they win Nobel prize on propensity score given Nobel prize was gaven by causal inference this year?
+2. Why didn't they win Nobel prize on propensity score given that Nobel prize was given to causal inference this year?
 
