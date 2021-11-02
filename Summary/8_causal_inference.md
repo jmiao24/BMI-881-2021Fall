@@ -15,3 +15,6 @@ I like this paper. It provides an clear overview of the graphical causal inferen
 1. It seems the graphical causal inference requires knowing the true graph structure, but how can we get it?
 2. I am under the impression that Judea Pearl's causal inference is of different factions with Donald Rubin's. What is exactly the difference?
 
+## Take away
+1. We cannot infer the joint distibution of serveral r.v only with the data; i.e. the causal relationship
+2. The biggest contribution is that if we know the true graph (like what people thought which variables to include when including the propensity score), we can infer the causal relationship.
