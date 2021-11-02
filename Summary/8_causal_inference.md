@@ -1,19 +1,17 @@
-# 07_1983_PropensityScore
+# 08_2009_graph_causal_inference
 
 
 ## Summary
 
-This paper developed the propensity score, the  conditional  probability  of  assignment  to  a  particular
-treatment  given  a  vector  of observed  covariate.  It also estalished theory to show that adjust for propensity  score is sufficient  to remove  bias due  to
-all  observed  covariates.The propensity score has many applications including matching, multivariate
-adjustment  by  subclassification, and visualization of multivariate covariance adjustment by a two-dimensional  plot.
+This paper provides an overview of graphical causal inference. It first contrasts causal analysis with standard statistical analysis to help one understand what causal inference is. Second, it proposes a unified theory, called "structural," in which most, if not all, aspects of causality can be formulated, analyzed, and compared. Third, it presents a set of simple and effective tools, spawned by structural theory, for solving a wide variety of causal problems. Finally, it shows how previous approaches to causal analysis have emerged as special cases of general structural theory.
+
 
 ## Reaction
 
-I still remembered the moment I saw this concept when I took the causal inference class. It is a really smart quantity and make total sense to me. It makes matching to be one of the standard approach in causal inference and many new methods are based on this propensity score. However, there are some limitations of the propensity score such as the bias due to unobserved covaraites. Then I came across another measure I really lovecalled E-value introduced by Tyler J VanderWeele and Ding Peng, which evidence for causality in observational studies that are potentially subject to confounding. I would say these two measure are both very elagant and already became standard in causal inference.
+I like this paper. It provides an clear overview of the graphical causal inference. It tells people how to use graph to think about causal inference. The things I like most is at the beginning of "3. Structural models, diagrams, causal eﬀects, and counterfactuals". It gives us the gold standard to the theory for causal inference. But it might not be easy to achieve.
 
 ## Questions for discussion
 
-1. Are there other limitations of propensity score?
-2. Why didn't they win Nobel prize on propensity score given that Nobel prize was given to causal inference this year?
+1. It seems the graphical causal inference requires knowing the true graph structure, but how can we get it?
+2. I am under the impression that Judea Pearl's causal inference is of different factions with Donald Rubin's. What is exactly the difference?
 
