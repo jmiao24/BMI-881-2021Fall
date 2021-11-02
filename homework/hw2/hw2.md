@@ -1,6 +1,4 @@
 # HW2
-
-![F1](https://github.com/jmiao24/BMI-881-2021Fall/blob/main/HW1/F1.png)
  
 
 ## 1
