@@ -1,5 +1,7 @@
 # 08_2009_graph_causal_inference
 
+Reference: https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf
+
 
 ## Summary
 
