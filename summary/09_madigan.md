@@ -1,4 +1,4 @@
-# 08_2009_graph_causal_inference
+# 09_madigan
 
 Reference: https://academic.oup.com/aje/article/178/4/645/231982
 
