@@ -1,22 +1,22 @@
 # 08_2009_graph_causal_inference
 
-Reference: https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf
+Reference: https://academic.oup.com/aje/article/178/4/645/231982
 
 
 ## Summary
 
-This paper provides an overview of graphical causal inference. It first contrasts causal analysis with standard statistical analysis to help one understand what causal inference is. Second, it proposes a unified theory, called "structural," in which most, if not all, aspects of causality can be formulated, analyzed, and compared. Third, it presents a set of simple and effective tools, spawned by structural theory, for solving a wide variety of causal problems. Finally, it shows how previous approaches to causal analysis have emerged as special cases of general structural theory.
+Clinical studies that use observational databases of the same issue in different databases can and do generate different results, sometimes with strikingly different clinical implications. In this paper, the authors systematically study heterogeneity among databases, holding other study methods constant, by exploring relative risk estimates for 53 drugoutcome pairs and 2 widely used study designs across 10 observational databases. They found inconsistency for both direction and statistical significance across different databases where the analysis was conducted on .They concluded that clinical studies that use observational databases can be sensitive to the choice of database. 
+
 
 
 ## Reaction
 
-I like this paper. It provides an clear overview of the graphical causal inference. It tells people how to use graph to think about causal inference. The things I like most is at the beginning of "3. Structural models, diagrams, causal eﬀects, and counterfactuals". It gives us the gold standard to the theory for causal inference. But it might not be easy to achieve.
+I am not surprised by their conclusion. There are multiple factors that will cause this database heterogeneity such as the participation bias, sex bias, age bias, and uncontroled confounding. These kind of heterogeneity motivates us to do the meta-anlysis and replication analysis in order to make the conclusion to be robust. And such paper can always remind people to do such analtsis. Another observation is that the table in the paper is not good at all. The table in the supplment is also not easy to read. Perhaps excel is better in this case.
 
 ## Questions for discussion
 
-1. It seems the graphical causal inference requires knowing the true graph structure, but how can we get it?
-2. I am under the impression that Judea Pearl's causal inference is of different factions with Donald Rubin's. What is exactly the difference?
 
-## Take away
-1. We cannot infer the joint distibution of serveral r.v only with the data; i.e. the causal relationship
-2. The biggest contribution is that if we know the true graph (like what people thought which variables to include when including the propensity score), we can infer the causal relationship.
+1. How to address such database heterogeneity problem? Meta-analysis?
+2. If there exists database heterogeneity problem, how to draw the "right" conclusion?
+
+## Take away from discussion
