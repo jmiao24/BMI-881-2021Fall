@@ -1,13 +1,8 @@
-# 09_madigan
-
-Reference: https://academic.oup.com/aje/article/178/4/645/231982
-
+# 10_UpSet
 
 ## Summary
 
 Clinical studies that use observational databases of the same issue in different databases can and do generate different results, sometimes with strikingly different clinical implications. In this paper, the authors systematically study heterogeneity among databases, holding other study methods constant, by exploring relative risk estimates for 53 drugoutcome pairs and 2 widely used study designs across 10 observational databases. They found inconsistency for both direction and statistical significance across different databases where the analysis was conducted on .They concluded that clinical studies that use observational databases can be sensitive to the choice of database. 
-
-
 
 ## Reaction
 
