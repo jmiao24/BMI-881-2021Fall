@@ -1,22 +1,22 @@
-# 09_madigan
+# 11_majumder
 
-Reference: https://academic.oup.com/aje/article/178/4/645/231982
+Reference: https://www.tandfonline.com/doi/abs/10.1080/01621459.2013.808157
 
 
 ## Summary
 
-Clinical studies that use observational databases of the same issue in different databases can and do generate different results, sometimes with strikingly different clinical implications. In this paper, the authors systematically study heterogeneity among databases, holding other study methods constant, by exploring relative risk estimates for 53 drugoutcome pairs and 2 widely used study designs across 10 observational databases. They found inconsistency for both direction and statistical significance across different databases where the analysis was conducted on .They concluded that clinical studies that use observational databases can be sensitive to the choice of database. 
-
-
+The graphics in statistical field plays an important role in visualization of data and providing the intuition of the results. However, it is difficult to measuring the strength of patterns seen in plots and do statistical inference for it. In this paper, they introduced the visual statistical inference. They use the the application of visual inference to linear models to show that this new tool performs comparably with the conventional tests, and expectedly outperforms them when data are contaminated. 
 
 ## Reaction
 
-I am not surprised by their conclusion. There are multiple factors that will cause this database heterogeneity such as the participation bias, sex bias, age bias, and uncontroled confounding. These kind of heterogeneity motivates us to do the meta-anlysis and replication analysis in order to make the conclusion to be robust. And such paper can always remind people to do such analtsis. Another observation is that the table in the paper is not good at all. The table in the supplment is also not easy to read. Perhaps excel is better in this case.
+First, I am little confused about the input for the visual statistical inference. In the paper, they stated that "Ideally, thevisual test statisticis deﬁned and constructed using the grammar of graphics". However, I am not sure how they can use the grammar of graphics to constrcuct the test statisticis. Second, their idea seems novel to me, but the usage of their method seems limited. I don't think people would buy this method when they only take  graphic as input but not the raw data.
+
 
 ## Questions for discussion
 
 
-1. How to address such database heterogeneity problem? Meta-analysis?
-2. If there exists database heterogeneity problem, how to draw the "right" conclusion?
+1. How they can use the grammar of graphics to constrcuct the test statisticis?
+2. What kind of situation would people apply this method?
+3. Can they use computer vision to really use the figure as input for their method?
 
 ## Take away from discussion
