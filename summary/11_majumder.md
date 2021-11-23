@@ -20,3 +20,4 @@ First, I am little confused about the input for the visual statistical inference
 3. Can they use computer vision to really use the figure as input for their method?
 
 ## Take away from discussion
+1. Fisher's claim is that t-test statistics is like the test statistics for permutation test.
