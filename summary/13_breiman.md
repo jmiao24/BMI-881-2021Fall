@@ -8,7 +8,7 @@ This paper discussed the two cultures of statistical modeling: one assumes the d
 
 
 ## Reaction
-The paper is published in 2003 and now it is 2021. I think people use more the algorithmic models such as deep learning models because the goal is prediction in many applications. However, people also realized these kind of model lacks interpretation so people want to know why such algorithmic models like neural networks performs quite wel. In my research field statistical genetics, the trends seems to first use the data model to obtain some estimators and do the prediction. Then use the algorithmic models to improve the estimators and prediction.
+The paper is published in 2003 and now it is 2021. Now, I think people use more the algorithmic models such as deep learning models because the goal is prediction in many applications. However, people also realized these kind of model lacks interpretation so people want to know why such algorithmic models like neural networks performs quite wel. In my research field statistical genetics, the trends seems to first use the data model to obtain some estimators and do the prediction. Then use the algorithmic models to improve the estimators and prediction.
 
 ## Questions for discussion
 
