@@ -17,3 +17,4 @@ The paper is published in 2003 and now it is 2021. Now, I think people use more 
 
 ## Take away from discussion
 1. First build a model that predicts well then find out why.
+2. Two culture in data science: try to build a model specfic for a dataset/ develop new methods that works well in a general setting.
