@@ -16,3 +16,4 @@ The paper is published in 2003 and now it is 2021. Now, I think people use more 
 2. Are there theroy behind some traditional algorithmic models about why it works so good?
 
 ## Take away from discussion
+1. First build a model that predicts well then find out why.
