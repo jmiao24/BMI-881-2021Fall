@@ -1,13 +1,13 @@
-# 01_Gelman_2002_TurningTablesIntoGraphs
+# 01_Wickham_2014_tidy-data
 
 
 ## Summary
 
-Statistician recommend using graph to deliver message, but often does not follow it, potentially due to the heavy workload to make nice graphs.  Gelman et al. provided a “proof of concept” that statistical papers can benefit by changing tables into graphs. They revisited  a single issue of JASA and shows that how all numerical displays can be shown graphically, including inferences such as estimated regression coefficients and statistical research results such as frequency evaluations that are typically displayed in tabular form.  They invoked the statistician begin to think more seriously about displaying their results as comparisons.
+The process of cleaning and preparing the data always took much of the time for the data analysis. There is little reseach on how to make data cleanin an preparing more effcient and easy. To address this problem, Wickham deveoped "tidy data", which contains the principle to clean, prepare and store the data, R packages to make the principle easy to follow. It also provides many concrete examples to show what is the principle and how to follow it.
 
 ## Reaction
 
-I think this is a good paper to convince statisticians that in many cases, graphs can do a better job than tables. They did not chant the slogan that statisticians should use graphs, but provided many concrete examples, converting tables into graphs, and allowing readers to judge which format is more readable.Most of the graph they made looks pretty good to me. One exception for me is Figure5, I also spent a hard time in understanding the graph while the table looks more readable for me. One potential reason is that people always present the asymptotic characteristics of a statistical method in the table, such as type I errors. Therefore, due to past experience, I have read such a table many times, but for the first time I have seen people present such results in a graph. Nevertheless, all in all, this is a meaningful paper that can improve the readability of future statistical papers.
+Wickham won the COPSS award due to his contribution in R software includin ggplot2, this tidy data and etc. There were a lot of discussions about whether it is proper to give one of the best award in the stat field to a "software engineer". From my perspective, it is a really a good ability to summaize the experience into principles. When we met some problems he descibed in the paper, we might think of a good way to deal with it and let it becomes our habit. However, write it down and let what people know what you thoughts is right is very difficult. I did not use tidy data very often. The functions in the Package can be replaced by some common default function in R. But my experience is that if you are very familar, the codes would be much more readable if using tidy data rather than the  
 
 ## Questions for discussion
 
