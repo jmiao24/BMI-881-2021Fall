@@ -14,3 +14,6 @@ Wickham won the COPSS award due to his contribution in R software includin ggplo
 1. How to make tidy data more popular or even as the gold standard in stat software?
 2. What is the best way to learn tidy data?
 
+# In class
+
+1. Sparse matrix can also be store in tidy data and even be more efficient in tidy data.
