@@ -1,20 +1,15 @@
 # 14_tSNE
 
-Reference: https://royalsocietypublishing.org/doi/10.1098/rsif.2017.0387, https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007128.
-
+Reference: https://www.jmlr.org/papers/v9/vandermaaten08a.html
 
 ## Summary
-The Manubot paper introduce a software named Manubot to address the challenges of open scholarly writing. With Manubot, manuscripts are written in Markdown and stored in a Git repository to accurately track changes over time.  And the deep review paper is collaboratively written on GitHub using a tool called Manubot. It mainly examined applications of deep learning to a variety of biomedical problems and discuss whether deep learning will be able to transform these tasks or if the biomedical sphere poses unique challenges. 
-
+This paper propose a new method to visualize high-dimensional data by giving each datapoint a location in a two or three-dimensional map. It extends the Stochastic Neighbor Embedding (SNE) to t-SNE. The name "t" is because it uses the t-distibution to replace the Gaussian to calculate similarity in low-dimensional space. Since t-distribution has t-Distribution is a long tail distribution, it prevents the crowding problem. The author used several data sets and showed the results t-SNE are significantly better than other approaches.
 
 ## Reaction
-
-I like the idea of Manubot. I would definitly try it out when there is chances. I looked throght the Github repository for deep review and found it complicated. I am wondering what kind of people would give up their current tool to write manuscript such as word and switch to Manubot. I also think it is not very easy to get familar with Manubot and convince the collborator to use it too.
-
+I have seen a lot of papers using this methods and other methods called UMAP. But I never applied it in my field. In genetics, the most frequent dimension reduction methods we use is PCA. The PC from PCA represents the ancestry and there is a famous paper that maps the genetics PC to the European map. So I am quite curios why in my field, seems no one is using t-SNE and UMAP. And in some other field like single-cell RNA-seq, people never use PCA. And recently, I saw a paper called "The Specious Art of Single-Cell Genomics" by Prof. Lior Pachter in twitter. It critize such method but I didn't read it through. Seems there are some art in it. :D
 
 ## Questions for discussion
-
-1. What kind of people would give up their current tool to write manuscript such as word and switch to Manubot?
-2. What is unique feature of Manubot to make people use it?
+1. What the advantages and disadvantages between t-SNE, UMAP and PCA?
+2. Is there other future development for t-SNE?
 
 ## Take away from discussion
