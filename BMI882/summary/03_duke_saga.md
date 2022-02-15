@@ -14,3 +14,5 @@ The problems descibed in the paper is very important. I think we need to be very
 1. How to bette identify the mistakes in our data processing?
 2. What should we do if we found other's analysis is wrong?
 
+## Lessons
+1. Know the common mistakes and think about how to find them.
