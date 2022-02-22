@@ -1,16 +1,16 @@
-# 03_duke_saga
+# 04_duke_saga2
 
 
 ## Summary
 
-This paper examine several paper published by Dr. Potti purporting to use microarray-based signatures of drug sensitivity derived from cell lines to predict patient response. It points out the many mistakes in the original analysis like reversed or incorrect labels and duplicated samples. It concluded these mistakes results from poor documentation for data processing thus lack of reproducibility. It calls for better documentation and tools to increase the reproducibility of research.
+This paper talks about what information should be requierd when publishing a clinical "omnics" publications. It mainly consider five things that should be supplied: 1) raw data 2) the code used to derive the results from the raw data 3) evidence of the provenance of the raw data so that labels could be checked 4) written descriptions of any nonscriptable analysis steps and 5)prespecified analysis plans, if any. It also discussed the rational of requiring these data, and tools to make it easier.
 
 ## Reaction
 
-The problems descibed in the paper is very important. I think we need to be very careful when doing data processing and analysis, make good documentation. And if we did not mean on purpose but finally have the similar problem like what Dr. Potti met, we need to retract the paper immediately. 
+I think the five things that should be supplied mentioned in the paper make sense. However, it may to difficult to realize in practice. For example, the raw data always is restricted due to privacy concern in "omics" field. Thus, even with th code, we cannot replicate the results. However, I found that more and more people are "open-source" now and release their analysis and simulation codes. 
 
 ## Questions for discussion
 
-1. How to bette identify the mistakes in our data processing?
-2. What should we do if we found other's analysis is wrong?
+1. Suppose we thought found a "mistake" in a big paper, what should we do?
+2. Should the journal or conference require releasing the code if people want to publish a paper?
 
