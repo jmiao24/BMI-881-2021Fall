@@ -1,0 +1,114 @@
+---
+title: "HW1_BMI882"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+I first downloaded the file from the "Everything" in the source materials. 
+
+Next, I found their source code for Fig1b is located at `./RNowebSource/examiningDoxorubicinInDetail.Rnw`
+
+Then, I copied the data required `/RawData/PottiNatMed` for the source code into my workingdir and directly copy the code needed and paste it here. It takes me some time to figure out the blocks do I need to copy.
+
+# loadGenes
+```{r}
+doxorubicinGenes <- 
+  read.table(file.path("RawData","PottiNatMed",
+                       "GeneListsNov07","Adria(final).txt"),
+             sep="\t",header=TRUE)
+dim(doxorubicinGenes)
+doxorubicinGenes[1:3,]
+doxorubicinGenes <- as.character(doxorubicinGenes[,"Probe.Set.ID"])
+doxorubicinGenes[1:3]
+```
+## loadDoxo07
+```{r}
+
+tempDoxorubicin07Header1 <- 
+  read.table(file.path("RawData","PottiNatMed","Adria_ALL.txt"), sep="\t",
+             nrows=1, header=FALSE)
+tempDoxorubicin07Header1 <- as.vector(t(tempDoxorubicin07Header1));
+
+tempDoxorubicin07Header2 <- 
+  read.table(file.path("RawData","PottiNatMed","Adria_ALL.txt"), sep="\t",
+             skip=1, nrows=1, header=FALSE)
+tempDoxorubicin07Header2 <- as.vector(t(tempDoxorubicin07Header2));
+
+tempDoxorubicin07Header1[1:25]
+tempDoxorubicin07Header2[1:25]
+
+table(tempDoxorubicin07Header1)
+table(tempDoxorubicin07Header2)
+```
+
+## buildDoxo07Info
+```{r}
+
+
+tempSampleNames <- 
+  c(paste("Training", c(1:22), sep=""), 
+    paste("Test", c(1:122), sep=""))
+
+tempGroup <- c(rep("Training", 22), rep("Test", 122))
+tempStatus <- tempDoxorubicin07Header2
+tempStatus[tempStatus == "Sens"] <- "Sensitive"
+tempStatus[tempStatus == "NR"]   <- "Resistant"
+tempStatus[tempStatus == "Resp"] <- "Sensitive"
+
+doxorubicin07Info <- 
+  data.frame(sampleGroup = tempGroup,
+             status      = tempStatus,
+             row.names   = tempSampleNames)
+
+doxorubicin07Info[c(1:2,22:25),]
+
+#rm(doxorubicin07Header1, doxorubicin07Header2, tempGroup, tempStatus)
+rm(list=ls(pattern="^temp"))
+```
+
+## loadDoxo07Numbers
+```{r}
+
+doxorubicin07Numbers <- 
+  read.table(file.path("RawData","PottiNatMed","Adria_ALL.txt"), sep="\t",
+             skip=2, header=FALSE)
+
+colnames(doxorubicin07Numbers) <- rownames(doxorubicin07Info)
+
+doxorubicin07Numbers[1:4,c(1:2,22:25)]
+```
+
+## getDoxoCors
+```{r}
+doxorubicin07Cors <- cor(doxorubicin07Numbers)
+sum(doxorubicin07Cors > 0.9999)
+sum(diag(doxorubicin07Cors) > 0.9999)
+```
+
+## plotDoxoHighCors, fig=TRUE
+```{r}
+
+doxorubicin07HighCors <- (doxorubicin07Cors > 0.9999)
+
+same07Status <- matrix(rep(doxorubicin07Info[,"status"],144),144,144)
+same07Status <- (same07Status == t(same07Status))
+
+temp07Ties <- which(doxorubicin07HighCors & same07Status, arr.ind=TRUE)
+temp07Ties <- temp07Ties[temp07Ties[,1] != temp07Ties[,2],]
+temp07BadTies <- which(doxorubicin07HighCors & (!same07Status), arr.ind=TRUE)
+
+plot(1:144, 1:144, pch=".", cex=3,
+     xlim=c(0.5,144.5), ylim=c(0.5,144.5), 
+     xaxs="i", yaxs="i",
+     xlab="Column in Adria_ALL.txt",
+     ylab="Column in Adria_ALL.txt",
+     main="Identical Columns in Adria_ALL.txt",
+     )
+points(temp07Ties[,1],temp07Ties[,2],pch=21,bg="white",lwd=1)
+points(temp07BadTies[,1],temp07BadTies[,2],pch=24,bg="red",lwd=2)
+abline(h=22.5, v=22.5)
+
+abline(v=32, lty="dashed")
+```
+
